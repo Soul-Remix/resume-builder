@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 80px 20px;
+  margin: 0 auto;
+  max-width: 1060px;
+}
+
+.header h1 {
+  font-size: 4.75rem;
+  letter-spacing: -1px;
+  font-weight: 700;
+  line-height: 1.06;
+  color: #2d2d2d;
+  text-align: center;
+}
+
+.header p {
+  font-size: 1.875rem;
+  letter-spacing: -0.12px;
+  font-weight: 400;
+  line-height: 1.14;
+  color: #4b4b4b;
+}
+
+.header button {
+  background-color: #085ff7;
+  color: #fff;
+  text-decoration: none;
+  border: 0.125rem solid #085ff7;
+  border-radius: 6.25rem;
+  background-repeat: repeat-x;
+  cursor: pointer;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  letter-spacing: 0;
+  font-weight: 700;
+  line-height: 1.125rem;
+  max-width: 21.9375rem;
+  margin-top: 40px;
+}
+
+.header button:hover {
+  background-color: #0044e3;
+  border-color: #0044e3;
+}
+
+@media screen and (max-width: 1024px) {
+  .header h1 {
+    font-size: 2.625rem;
+  }
+
+  .header p {
+    font-size: 1.4375rem;
+  }
+}

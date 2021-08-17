@@ -1,0 +1,177 @@
+.info {
+  transition: all 0.3 ease-in-out;
+}
+
+hr {
+  border: 1px dashed gray;
+  margin-bottom: 25px;
+}
+
+.info h2 {
+  margin-bottom: 5px;
+  color: #085ff7;
+  font-size: 1.875rem;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+  font-size: 1.4375rem;
+}
+
+form input {
+  width: 48%;
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+  height: 30px;
+  border: 1px solid transparent;
+  border-bottom: 2px solid black;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  color: #4b4b4b;
+}
+
+form input:focus {
+  border-bottom: 2px solid blue;
+}
+
+form input:hover {
+  border-bottom: 2px solid blue;
+}
+
+form textarea {
+  width: 100%;
+  font-size: 1.1rem;
+  border: 1px solid transparent;
+  border-bottom: 2px solid black;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  color: #4b4b4b;
+}
+
+form textarea:focus {
+  border-bottom: 2px solid blue;
+}
+
+form textarea:hover {
+  border-bottom: 2px solid blue;
+}
+
+form input[type='checkbox'] {
+  cursor: pointer;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+button {
+  background-color: #085ff7;
+  color: #fff;
+  text-decoration: none;
+  border: 0.125rem solid #085ff7;
+  border-radius: 6.25rem;
+  background-repeat: repeat-x;
+  cursor: pointer;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  letter-spacing: 0;
+  font-weight: 700;
+  line-height: 1.125rem;
+  max-width: 20rem;
+  margin-top: 40px;
+}
+
+button:hover {
+  background-color: #0044e3;
+  border-color: #0044e3;
+}
+
+.extra {
+  background-color: white;
+  color: #085ff7;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+  border: none;
+  max-width: 9rem;
+}
+
+.extra:hover {
+  color: #0044e3;
+  background-color: white;
+}
+
+.delete {
+  margin-top: -20px;
+  margin-bottom: 15px;
+}
+
+.delete-btn {
+  background-color: crimson;
+  border-color: crimson;
+  padding: 0.8rem;
+  max-width: 8rem;
+}
+
+.delete-btn:hover {
+  background-color: rgb(238, 20, 64);
+  border-color: rgb(238, 20, 64);
+}
+
+/* Education form */
+.education-form input[type='text'] {
+  width: 100%;
+}
+
+.date {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.education-form .date .date-field {
+  width: 40%;
+}
+
+.education-form input[type='date'] {
+  width: 40%;
+}
+
+.ongoing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  form input {
+    width: 100%;
+  }
+
+  .buttons {
+    flex-flow: column-reverse;
+  }
+
+  button {
+    max-width: 100%;
+  }
+
+  .education-form .date .date-field {
+    width: 45%;
+  }
+}

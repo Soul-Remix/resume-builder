@@ -1,0 +1,13 @@
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, Liberation Sans, Roboto, Noto,
+    sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  transition: all 0.3s ease-in-out;
+  overflow: auto;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
